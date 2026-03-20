@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en" class="h-full">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="scripts.js" type="text/javascript" defer></script>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullpage.js/4.0.20/fullpage.min.css">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;family=Playfair+Display:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+ 
+ </head>
+ <body class="h-full w-full">
+  <div class="cv-wrapper" id="cvWrapper">
+   <div class="pages-track" id="pagesTrack">
+    <section class="page" id="page0">
+     <div style="flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; max-width:480px; text-align:center;">
+      <div class="avatar-ring" id="avatarRing">
+       <div class="avatar-inner">
+        <img src="Tina Zgaga.jpg"></img>
+        <svg viewbox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="40" cy="30" r="14" fill="#f59e42" opacity="0.85" /> <ellipse cx="40" cy="64" rx="22" ry="16" fill="#f59e42" opacity="0.55" />
+        </svg>
+       </div>
+      </div>
+      <h1 id="nameEl" class="Name">Tina Zgaga</h1>
+      <p id="titleEl" class="title-el ">Senior Product Designer</p>
+      <p id="summaryEl" class="title-sum ">Crafting intuitive digital experiences for 8+ years. Passionate about user-centered design, micro-interactions, and building products people love.</p>
+      <div id="skillsContainer" class="skillCont">
+        <span class="skill-pill">UI/UX Design</span> 
+        <span class="skill-pill">Figma</span> 
+        <span class="skill-pill">Prototyping</span> 
+        <span class="skill-pill">Design Systems</span> 
+        <span class="skill-pill">User Research</span>
+      </div>
+     </div>
+    </section>
+    <section class="page" id="page1">
+     <div style="width:100%; max-width:480px; padding-top:1rem;">
+      <h2 class="section-heading" id="expHeading">Work Experience</h2>
+      <div class="section-divider"></div>
+      <div class="timeline" id="timelineContainer">
+       <div class="timeline-item">
+        <p>2021 — Present</p>
+        <h3>Senior Product Designer</h3>
+        <p>TechVision Inc.</p>
+        <p>Led design system overhaul serving 2M+ users. Improved onboarding conversion by 34% through iterative prototyping.</p>
+       </div>
+       <div class="timeline-item">
+        <p>2018 — 2021</p>
+        <h3>UX Designer</h3>
+        <p>Creativa Agency</p>
+        <p>Designed mobile-first experiences for 15+ clients across fintech, healthcare, and e-commerce sectors.</p>
+       </div>
+       <div class="timeline-item">
+        <p>2016 — 2018</p>
+        <h3>Junior Designer</h3>
+        <p>PixelWorks Studio</p>
+        <p>Created brand identities and marketing collateral. Collaborated on 20+ web design projects.</p>
+       </div>
+      </div>
+     </div>
+    </section><!-- PAGE 3: Education -->
+    <section class="page" id="page2">
+     <div>
+      <h2 class="section-heading" id="eduHeading">Education</h2>
+      <div class="section-divider"></div>
+      <div class="edu-card">
+       <div>
+        <div>
+            <i data-lucide="graduation-cap"></i>
+        </div>
+        <div>
+         <h3>Master of Design</h3>
+         <p>Interaction Design</p>
+        </div>
+       </div>
+       <p>Royal College of Art, London</p>
+       <p>2014 — 2016</p>
+      </div>
+      <div class="edu-card">
+       <div>
+        <div>
+            <i data-lucide="book-open"></i>
+        </div>
+        <div>
+         <h3>Bachelor of Arts</h3>
+         <p>Graphic Design</p>
+        </div>
+       </div>
+       <p>University of the Arts, Berlin</p>
+       <p>2010 — 2014</p>
+      </div>
+      <div>
+       <h3>Certifications</h3>
+       <div>
+        <span class="skill-pill">Google UX Certificate</span> 
+        <span class="skill-pill">Figma Advanced</span> 
+        <span class="skill-pill">Design Thinking</span>
+       </div>
+      </div>
+     </div>
+    </section><!-- PAGE 4: Contact -->
+    <section class="page" id="page3">
+     <div>
+      <h2 class="section-heading" id="contactHeading">Kontakt</h2>
+      <div class="section-divider"></div>
+      <div class="contact-item">
+       <div class="contact-icon-box">
+            <i data-lucide="mail"></i>
+       </div>
+       <div>
+        <p>Email</p>
+        <p id="contactEmailEl">tina.zgaga@gmail.com</p>
+       </div>
+      </div>
+      <div class="contact-item">
+       <div class="contact-icon-box">
+            <i data-lucide="phone"></i>
+       </div>
+       <div>
+        <p>Telefon</p>
+        <p id="contactPhoneEl">+386 41 655 772</p>
+       </div>
+      </div>
+      <div class="contact-item">
+       <div class="contact-icon-box" >
+            <i data-lucide="map-pin"></i>
+       </div>
+       <div>
+        <p>Location</p>
+        <p id="contactLocationEl">Nova Gorica, Slovenija</p>
+       </div>
+      </div>
+      <div class="contact-item">
+       <div class="contact-icon-box"><i data-lucide="linkedin" style="width:22px; height:22px; color:#f59e42;"></i>
+       </div>
+       <div>
+        <p>LinkedIn</p>
+        <p>https://www.linkedin.com/in/tinazgaga/</p>
+       </div>
+      </div>
+      <div></div>
+      <p>© 2024 Alex Morgan — All rights reserved</p>
+     </div>
+    </section>
+   </div><!-- Navigation bar -->
+   <nav class="nav-bar" id="navBar">
+    <button class="nav-btn" id="prevBtn" aria-label="Previous page"> 
+        <i data-lucide="chevron-left"></i>
+    </button>
+    <div class="dots-container" id="dotsContainer">
+    </div>
+    <button class="nav-btn" id="nextBtn"> 
+         <i data-lucide="chevron-right"></i> 
+    </button>
+   </nav>
+  </div>
+ </html>
