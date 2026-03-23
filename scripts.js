@@ -20,15 +20,15 @@ const defaultConfig = {
   font_family: 'Outfit',
   font_size: 16,
   // Content
-  full_name: 'Alex Morgan',
-  job_title: 'Senior Product Designer',
-  profile_summary: 'Crafting intuitive digital experiences for 8+ years. Passionate about user-centered design, micro-interactions, and building products people love.',
+  full_name: 'Tina Zgaga',
+  job_title: 'FABLAB Manager',
+  profile_summary: 'Že več let združujem svetova digitalnega oblikovanja in tehnične izdelave. Kot specialistka za razvoj izdelkov in vodenje laboratorijev ustvarjam intuitivne digitalne izkušnje, hkrati pa svoje vizije spreminjam v fizično obliko s pomočjo 3D modeliranja, aditivnih tehnologij in robotike. Moja strast je celovit pristop k reševanju problemov – od prve skice v Illustratorju do končnega delujočega prototipa.',
   experience_title: 'Work Experience',
   education_title: 'Education',
   contact_title: 'Get In Touch',
-  contact_email: 'alex.morgan@email.com',
-  contact_phone: '+44 7700 900123',
-  contact_location: 'London, United Kingdom'
+  contact_email: 'tina.zgaga@gmail.com',
+  contact_phone: '+386 41 655 772',
+  contact_location: 'Nova Gorica, Slovenija'
 };
 
 // ===== Navigation Functions =====

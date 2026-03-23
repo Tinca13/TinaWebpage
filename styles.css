@@ -219,7 +219,7 @@ body {
 .timeline::before {
   content: '';
   position: absolute;
-  left: 7px;
+  left: 5px;
   top: 6px;
   bottom: 6px;
   width: 2px;
