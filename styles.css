@@ -311,7 +311,6 @@ body {
   display: flex;
   align-items: center;
   gap: 0.8rem;
-  margin-bottom: 0.8rem;
   background: none !important;
 }
 
@@ -387,7 +386,12 @@ body {
 .contact-item:nth-child(4) { 
   animation-delay: 0.4s; 
 }
-
+svg.lucide-linkedin {
+  display: block !important;
+  color: var(--greenDark) !important;
+  width: 24px !important;
+  height: 24px !important;
+}
 .contact-icon-box {
   width: 44px;
   height: 44px;

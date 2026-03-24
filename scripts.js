@@ -22,13 +22,14 @@ const defaultConfig = {
   // Content
   full_name: 'Tina Zgaga',
   job_title: 'FABLAB Manager',
-  profile_summary: 'Že več let združujem svetova digitalnega oblikovanja in tehnične izdelave. Kot specialistka za razvoj izdelkov in vodenje laboratorijev ustvarjam intuitivne digitalne izkušnje, hkrati pa svoje vizije spreminjam v fizično obliko s pomočjo 3D modeliranja, aditivnih tehnologij in robotike. Moja strast je celovit pristop k reševanju problemov – od prve skice v Illustratorju do končnega delujočega prototipa.',
-  experience_title: 'Work Experience',
-  education_title: 'Education',
-  contact_title: 'Get In Touch',
+  profile_summary: 'Že več let združujem svetova digitalnega oblikovanja in tehnične izdelave. Moja strast je celovit pristop k reševanju problemov – od prve skice v Illustratorju do končnega delujočega prototipa.',
+  experience_title: 'Delovne izkušnje',
+  education_title: 'Izobrazba',
+  contact_title: 'Kontakt',
   contact_email: 'tina.zgaga@gmail.com',
   contact_phone: '+386 41 655 772',
-  contact_location: 'Nova Gorica, Slovenija'
+  contact_location: 'Nova Gorica, Slovenija',
+  contact_linkedin: 'linkedin.com/in/tinazgaga',
 };
 
 // ===== Navigation Functions =====
@@ -113,7 +114,7 @@ function applyConfig(cfg) {
   const muted = cfg.secondary_action || defaultConfig.secondary_action;
   const font = cfg.font_family || defaultConfig.font_family;
   const baseSize = cfg.font_size || defaultConfig.font_size;
-
+ 
   // Update page backgrounds
   for (let i = 0; i < TOTAL_PAGES; i++) {
     document.getElementById('page' + i).style.background = bg;
@@ -220,12 +221,12 @@ function applyConfig(cfg) {
   contactHeading.textContent = cfg.contact_title || defaultConfig.contact_title;
   contactHeading.style.color = text;
   contactHeading.style.fontSize = `${baseSize * 1.6}px`;
-
+ 
   // Update contact information
   document.getElementById('contactEmailEl').textContent = cfg.contact_email || defaultConfig.contact_email;
   document.getElementById('contactPhoneEl').textContent = cfg.contact_phone || defaultConfig.contact_phone;
   document.getElementById('contactLocationEl').textContent = cfg.contact_location || defaultConfig.contact_location;
-
+ 
   // Update contact cards
   document.querySelectorAll('.contact-item').forEach(item => {
     item.style.background = accent + '12';
