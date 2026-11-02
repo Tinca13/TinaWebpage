@@ -21,9 +21,9 @@ const defaultConfig = {
   font_size: 16,
   // Content
   full_name: 'Tina Zgaga',
-  job_title: 'FABLAB Manager',
+  job_title: 'Izdelava spletnih strani in digitalnih rešitev',
   profile_summary: 'Že več let združujem svetova digitalnega oblikovanja in tehnične izdelave. Moja strast je celovit pristop k reševanju problemov – od prve skice v Illustratorju do končnega delujočega prototipa.',
-  experience_title: 'Delovne izkušnje',
+  experience_title: 'Moji projekti in reference',
   education_title: 'Izobrazba',
   contact_title: 'Kontakt',
   contact_email: 'tina.zgaga@gmail.com',
