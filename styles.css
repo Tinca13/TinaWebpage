@@ -449,7 +449,6 @@ svg.lucide-linkedin {
   max-width: 480px;
   padding-top: 1rem;
 }
-
 /* Education Section Container */
 .education-section {
   width: 100%;
@@ -501,6 +500,7 @@ svg.lucide-linkedin {
   color: #475569;
   margin: 1.5rem 0 0;
 }
+
 /* Animations */
 @keyframes fadeSlideUp {
   from { 
@@ -512,3 +512,31 @@ svg.lucide-linkedin {
     transform: translateY(0); 
   }
 }
+a.linkPage {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 9px 18px;
+
+    color: #ffa726;
+    border: 1px solid #ffa726;
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+    transition: all 0.3s ease;
+}
+
+a.linkPage:hover {
+    background-color: #ffa726;
+    color: #101a30;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 167, 38, 0.25);
+}
+
+a.linkPage:focus-visible {
+    outline: 2px solid #ffffff;
+    outline-offset: 3px;
+}
+
